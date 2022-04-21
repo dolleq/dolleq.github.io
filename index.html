@@ -2,37 +2,97 @@
 <html lang="zh-Hant-TW">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="We make BJDs and tutorials for making dolls.
-        我們製作 BJD 和做娃的教學。"
+      content="We make BJDs and tutorials for making dolls
+        我們製作 BJD 和做娃的教學"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" />
+    <meta name="theme-color" content="#ffc72c" />
+    <meta property="og:title" content="Dolleq" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dolleq.com" />
+    <meta property="og:image" content="katiat-enghim.jpg" />
+    <meta
+      property="og:description"
+      content="We make BJDs and tutorials for making dolls
+    我們製作 BJD 和做娃的教學"
+    />
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" /></noscript>
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" /></noscript>
     <title>Dolleq</title>
   </head>
-  <body class="bg-warning">
-    <div class="container">
-      <div class="mt-4 text-center">
-        <img src="logo.png" alt="dolleq" width="100px" height="50px" srcset="logo.png, logo-2x.png 2x" />
-      </div>
-      <div class="mb-5">
-        <!-- <a role="button" class="mb-3 btn btn-light btn-lg btn-block" style="color: #6a3f24" href="kcu"><i class="fas fa-school"></i> 基隆社大報名資訊</a> -->
-        <h1 class="mt-4 display-4 text-white">SOCIAL MEDIA</h1>
-        <a role="button" class="mb-3 btn btn-light btn-lg btn-block" style="color: #6a3f24" href="https://www.youtube.com/dolleq"><i class="fab fa-youtube"></i> YouTube</a>
-        <a role="button" class="mb-3 btn btn-light btn-lg btn-block" style="color: #6a3f24" href="https://www.instagram.com/dolleqworkshop/"><i class="fab fa-instagram"></i> Instagram</a>
-        <a role="button" class="mb-3 btn btn-light btn-lg btn-block" style="color: #6a3f24" href="https://www.facebook.com/qr?id=564294773614229"><i class="fab fa-facebook"></i> Facebook</a>
-        <a role="button" class="mb-3 btn btn-light btn-lg btn-block" style="color: #6a3f24" href="https://twitter.com/dolleqworkshop"><i class="fab fa-twitter"></i> Twitter</a>
-        <h1 class="mt-4 display-4 text-white">MESSAGE</h1>
-        <a role="button" class="mb-3 btn btn-light btn-lg btn-block" style="color: #6a3f24" href="https://www.messenger.com/t/dolleq"><i class="fab fa-facebook-messenger"></i> Messenger</a>
-        <a role="button" class="mb-3 btn btn-light btn-lg btn-block" style="color: #6a3f24" href="https://line.me/R/ti/p/%40345aqamv"><i class="fab fa-line"></i> Line</a>
-        <h1 class="mt-4 display-4 text-white">SHOP</h1>
-        <a role="button" class="mb-3 btn btn-light btn-lg btn-block" style="color: #6a3f24" href="https://www.ruten.com.tw/store/dolleq"><i class="fas fa-store"></i> 露天拍賣</a>
-        <a role="button" class="mb-3 btn btn-light btn-lg btn-block" style="color: #6a3f24" href="https://shopee.tw/dolleq"><i class="fas fa-store"></i> 蝦皮購物</a>
+
+  <body style="background-color: #ffc72c">
+    <header class="container">
+      <h1 class="mt-4 mb-3 text-center">
+        <img src="logo.png" width="100px" height="50px" srcset="logo.png, logo-2x.png 2x" alt="Dolleq" />
+      </h1>
+    </header>
+
+    <div class="container d-none d-md-block carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="katiat-enghim.jpg" class="w-100" alt="Katiat and Enghim" />
+        </div>
+        <div class="carousel-item">
+          <img src="enghim.jpg" class="w-100" alt="Enghim" />
+        </div>
+        <div class="carousel-item">
+          <img src="katiat.jpg" class="w-100" alt="Katiat" />
+        </div>
       </div>
     </div>
-    <!-- <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" /> -->
+
+    <div class="d-block d-md-none carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="katiat-enghim.jpg" class="w-100" alt="Katiat and Enghim" />
+        </div>
+        <div class="carousel-item">
+          <img src="enghim.jpg" class="w-100" alt="Enghim" />
+        </div>
+        <div class="carousel-item">
+          <img src="katiat.jpg" class="w-100" alt="Katiat" />
+        </div>
+      </div>
+    </div>
+
+    <main class="container">
+      <article class="mt-2 text-center fs-6" style="color: #6a3f24">
+        <div>We make BJDs and tutorials for making dolls</div>
+        <div>我們製作 BJD 和做娃的教學</div>
+      </article>
+
+      <div>
+        <h2 class="mt-4 text-white"><span class="display-4">Social Media</span><span> 社群媒體</span></h2>
+
+        <div class="d-grid gap-2 d-md-block">
+          <a role="button" class="btn btn-light btn-lg" style="color: #6a3f24" href="https://www.youtube.com/dolleq"><i class="fab fa-youtube"></i> YouTube</a>
+          <a role="button" class="btn btn-light btn-lg" style="color: #6a3f24" href="https://www.instagram.com/dolleqworkshop/"><i class="fab fa-instagram"></i> Instagram</a>
+          <a role="button" class="btn btn-light btn-lg" style="color: #6a3f24" href="https://www.facebook.com/qr?id=564294773614229"><i class="fab fa-facebook"></i> Facebook</a>
+          <a role="button" class="btn btn-light btn-lg" style="color: #6a3f24" href="https://twitter.com/dolleqworkshop"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+
+        <h2 class="mt-4 text-white"><span class="display-4">Shop</span><span> 商店</span></h2>
+
+        <div class="d-grid gap-2 d-md-block">
+          <a role="button" class="btn btn-light btn-lg" style="color: #6a3f24" href="https://www.ruten.com.tw/store/dolleq"><i class="fas fa-store"></i> 露天拍賣</a>
+          <a role="button" class="btn btn-light btn-lg" style="color: #6a3f24" href="https://shopee.tw/dolleq"><i class="fas fa-store"></i> 蝦皮購物</a>
+        </div>
+
+        <h2 class="mt-4 text-white"><span class="display-4">Contact</span><span> 聯絡</span></h2>
+
+        <div class="d-grid gap-2 d-md-block">
+          <a role="button" class="btn btn-light btn-lg" style="color: #6a3f24" href="https://www.messenger.com/t/dolleq"><i class="fab fa-facebook-messenger"></i> Messenger</a>
+          <a role="button" class="btn btn-light btn-lg" style="color: #6a3f24" href="https://line.me/R/ti/p/%40345aqamv"><i class="fab fa-line"></i> Line</a>
+        </div>
+      </div>
+      <footer class="mb-5"></footer>
+    </main>
+
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
