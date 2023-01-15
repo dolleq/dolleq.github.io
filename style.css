@@ -1,0 +1,10 @@
+.body {
+    background-color: #ffc72c;
+    color: #6a3f24;
+    font-weight: bold;
+  }
+
+  a, h1 {
+    color: #6a3f24 !important;
+    font-weight: bold !important;
+  }
