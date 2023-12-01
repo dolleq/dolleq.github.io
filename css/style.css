@@ -7,3 +7,13 @@
     color: #6a3f24 !important;
     font-weight: bold !important;
   }
+
+  img {
+    width: 100%;
+    aspect-ratio: auto 16/9;
+  }
+
+  #logo {
+    height: 50px;
+    width: 100px;
+  }
